@@ -1,0 +1,123 @@
+.datatable{
+    padding: 1rem;
+    margin-right: 10rem;
+    display: flex;
+    flex-direction: column;
+    max-width:1000px;
+}
+.datatable_tooptions{
+    display: flex;
+}
+
+.datatable_search{
+    display: flex;
+    align-items: center;
+    border:1px solid lightgrey;
+    height: 30px;
+    border-radius: 99px;
+    width:140px;
+    margin-right: 1rem;
+}
+
+.datatable_search > input
+{
+    border: none;
+    width: 100px;
+    outline: none;
+    font-size: 10px;
+}
+.search_icon{
+    color: gainsboro;
+    padding-left: 6px;
+}
+
+.datatable_status{
+    display: flex;
+    align-items: center;
+    border:1px solid lightgrey;
+    height: 30px;
+    border-radius: 99px;
+    width:140px;
+}
+
+.datatable_status > input {
+    border: none;
+    margin-left: 5px;
+    width: 80px;
+    outline: none;
+    font-size: 10px;
+    padding-left: 15px;
+    
+}
+
+.datatable_status > input[disabled] {
+    background-color: white;
+}
+
+.arrow_icon{
+  margin-left: 10px;
+}
+
+.table{
+    margin-top:1rem;
+}
+.table > table {
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+th{
+    font-size: 12px;
+    background-color: #EAEAEA;
+    padding: .750rem 1rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+
+.table_rows > td{
+    padding:1rem 0;
+    border-bottom: 1px solid #EAEAEA;
+}
+
+
+.devider{
+    border-bottom : 1px solid #C3C3C3;
+}
+
+tbody > tr{
+    border-radius: 99px;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.datatable_name{
+    font-weight: 600;
+}
+.datatable_contact{
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+.datatable_number{
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+.datatable_email{
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+.datatable_site{
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+.datatable_active{
+    text-transform: capitalize;
+    letter-spacing: 1px;
+
+}
+.table_head{
+    text-transform: capitalize;
+}

@@ -1,0 +1,184 @@
+.nav__menu{
+    display: flex;
+    justify-content: space-between;
+    height:60px;
+    background-color:#2874f0;
+    overflow-x: hidden;
+}
+.login{
+    width:100px;
+    height:25px;
+    background-color: #2874f0;
+    border:1px solid white;
+    color:white;
+    font-weight: 200;
+    border-radius: 5px;
+    padding:0 15px;
+}
+.login:hover{
+    color:black;
+}
+
+.nav__left{
+    display:flex;
+    padding:0 25px;
+    align-items: center;
+    justify-content: space-between;
+    width: 160px;
+}
+
+.nav__logo{
+    color:white;
+    font-size:16px;
+    letter-spacing:2px;
+    font-weight: 200;
+}
+
+.nav__menu__icon{
+    color:white;
+    margin-top: 3px;
+}
+
+.nav__right{
+    display: flex;
+    align-items: center;
+    width:100px;
+    justify-content: space-between;
+    padding-right: 30px;
+
+}
+
+.nav__noti{
+    color: white;
+    margin-right: 5px;
+}
+
+.nav__profile{
+    width:45px;
+    height:45px;
+    border-radius:50%;
+    object-fit: cover;
+    cursor:pointer;
+}
+
+.burgermenu{
+    position:fixed;
+    top:0;
+    bottom:0;
+    right:0;
+    background:white;
+    width:200px;
+    height: 320px;
+    /* margin-top: 100px; */
+    z-index:100;
+    list-style:none;
+    display:flex;
+    flex-direction:column;
+    text-align:start; 
+    transform:translateX(0%);
+    transition:all 2s ease-in;
+    box-shadow: 0 8px 6px -6px black;
+   
+}
+
+.none{
+    display: none;
+}
+
+.burger_header{
+    height: 60px;
+    background-color:#2874f0;
+}
+
+.burger_profile_set{
+    position: relative;
+    background-color: white;
+}
+
+.burger_profile{
+    position: absolute; 
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 1px solid;
+    border-radius: 50%;
+    top:-50px;
+    right:42px;
+    border: 8px solid white;
+    overflow: hidden;
+   
+}
+
+.burger_image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    cursor:pointer;  
+}
+
+.burger_title{
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #C3C3C3;
+    margin:5rem 1rem 0 1rem;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.burger_action{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-top: 1rem;
+}
+
+.burger_account{
+    font-size: 12px;
+    font-weight: 400;
+    padding-bottom: 14px;
+
+}
+.burger_logout{
+    font-size: 12px;
+    font-weight: 400;
+    color: red;
+    cursor: pointer;
+
+}
+.burger_close{
+    position: absolute;
+    right:10px;
+    top:5px;
+    color: white;
+}
+
+.action_section{
+    display: flex;
+    padding: 1rem;
+    justify-content: flex-end;
+   
+}
+
+.action_delete{
+    color: red;
+    padding: 5px;
+    background-color: pink;
+    opacity: 70%;
+    border-radius: 30%;
+    margin-right: 5px;
+} 
+
+.action_eye{
+    color: lightseagreen;
+    padding: 5px;
+    background-color:skyblue;
+    opacity: 70%;
+    border-radius: 30%;
+  
+
+}
+
+.react-confirm-alert-button-group > button {
+   background-color: red;
+}
