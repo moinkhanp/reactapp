@@ -9,6 +9,7 @@ import 'react-confirm-alert/src/react-confirm-alert.css';
 import { auth, provider } from '../firebase'
 import { useHistory } from 'react-router-dom';
 import ClearIcon from '@material-ui/icons/Clear';
+import FiberManualRecordIcon from '@material-ui/icons/FiberManualRecord';
 
 
 function Header() {
@@ -91,7 +92,11 @@ const cancel = () => {
 
       <div className='nav__right'>
         <NotificationsIcon className='nav__noti' />
-        {!UserLogin.name ? (<div className='login' onClick={signIn}>login</div>):
+        <div className='red_dot'>
+        <FiberManualRecordIcon style={{ fontSize: 10 }}/>
+        </div>
+       
+        {!UserLogin.name ? (<div className='login' onClick={signIn}>Login</div>):
             <>
               <img className='nav__profile' onClick={() => Setcard(!card)} src={UserLogin.photo} />
               <div className={card ? "burgermenu" : "none"}>

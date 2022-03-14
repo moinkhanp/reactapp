@@ -1,8 +1,9 @@
 import axios from 'axios';
-// const baseURL = 'https://mongofetchapi.herokuapp.com';
-const baseURL = 'https://localhost:8001'
 
-export const getUsers = async () => {
+
+export const getUsers = async (page) => {
+    //  return await axios.get(`${baseURL}/getuser/?page=${page}`);
     
-    return await axios.get(`${baseURL}/getuser`);
-}   
+    return await axios.get(`https://mongofetchapi.herokuapp.com/getuser?page=${page}`)
+}      
+

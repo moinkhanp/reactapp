@@ -7,24 +7,25 @@
 }
 .login{
     width:100px;
-    height:25px;
     background-color: #2874f0;
     border:1px solid white;
     color:white;
     font-weight: 200;
-    border-radius: 5px;
-    padding:0 15px;
+    border-radius: 20px;
+    padding:5px 15px;
+    text-align: center;
 }
 .login:hover{
-    color:black;
+    border: 1px solid #C3C3C3;
 }
 
 .nav__left{
     display:flex;
-    padding:0 25px;
+    padding:0 50px;
     align-items: center;
     justify-content: space-between;
     width: 160px;
+  
 }
 
 .nav__logo{
@@ -32,11 +33,13 @@
     font-size:16px;
     letter-spacing:2px;
     font-weight: 200;
+    display: flex;
 }
 
 .nav__menu__icon{
     color:white;
     margin-top: 3px;
+    display: flex;
 }
 
 .nav__right{
@@ -181,4 +184,11 @@
 
 .react-confirm-alert-button-group > button {
    background-color: red;
+}
+
+.red_dot{
+    color:red;
+    position: relative;
+    left:-16px;
+    top:-7px
 }

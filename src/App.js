@@ -13,6 +13,10 @@ function App() {
             <Header />
             <Dashboard />
           </Route>
+          <Route path="getuser/:page">
+            <Header />
+            <Dashboard />
+          </Route>
         </Switch>
       </Router>
 
